@@ -1,0 +1,9 @@
+create database teachers;
+use teachers;
+create table teachers_msg(
+    id int(12) primary key auto_increment,
+    name varchar(15),
+    sex enum("M","F"),
+    age tinyint unsigned,
+    course varchar(15)
+)default charset = utf8;
