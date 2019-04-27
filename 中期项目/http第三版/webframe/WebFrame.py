@@ -5,6 +5,7 @@ from socket import *
 import json
 from setting import *
 from select import select
+from urls import *
 
 frame_address = (frame_ip,frame_port)
 # 应用类,将功能封装在类中
@@ -65,7 +66,11 @@ class Application(object):
 
 
     def get_data(self,info):
-        pass
+        for url,func in urls:
+            if url == info:
+                return  {"status":"200","data":func()}
+        return {"status":"404","data":"Sorry ...."}
+
 
 
 
