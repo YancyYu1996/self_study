@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Net/MysqlMutual" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Net/tcp简单服务" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Net" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/中期项目/http第三版/httpserver" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/中期项目/http第三版/webframe" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
